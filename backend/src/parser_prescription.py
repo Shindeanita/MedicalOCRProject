@@ -2,6 +2,7 @@ import re
 
 from backend.src.parser_generic import MedicalDocParser
 
+#child class of MedicalDocParser
 
 class PrescriptionParser(MedicalDocParser):
     def __init__(self, text):
