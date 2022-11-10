@@ -8,5 +8,5 @@ Description : The step which i have used to solve above task.
 2. Extract the image using some image processing techniques.
 3. Convert to dictonaries or use FastApi server for json objects
 
-
+Note: This project includes only backend code. frontend code will be added soon.
 
