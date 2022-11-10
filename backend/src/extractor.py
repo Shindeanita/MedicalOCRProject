@@ -4,6 +4,9 @@ import util
 from backend.src.parser_prescription import PrescriptionParser
 from backend.src.parser_patientdetails import PatientDetailsParser
 
+#poppler is used for image to pdf conversion
+#pytesseract is used for image to string conversion
+
 POPPLER_PATH = r'C:\poppler-22.04.0\Library\bin'
 pytesseract.pytesseract.tesseract_cmd=r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
